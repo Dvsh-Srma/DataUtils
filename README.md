@@ -6,13 +6,13 @@
 
 ```
 DataUtils/
-├── .gitignore           # Specifies files and directories to be ignored by Git
-├── README.md            # This file provides an overview and instructions
-├── requirements.txt     # Python dependencies required for the project
-├── makdown_to_html.py   # Script to convert Markdown to styled HTML
-├── markdown_to_docx.py  # Script to convert Markdown to DOCX with formatting
-├── markdownresp.txt     # Example markdown input file
-└── output.html          # Generated HTML output (ignored by Git)
+├── .gitignore                  # Specifies files and directories to be ignored by Git
+├── README.md                   # This file provides an overview and instructions
+├── requirements.txt            # Python dependencies required for the project
+├── makdown_to_html.py          # Script to convert Markdown to styled HTML
+├── markdown_to_docx.py         # Script to convert Markdown to DOCX with formatting
+├── markdownresp.txt            # Example markdown input file
+└── output.html / output.docx   # Generated after script execution (ignored by Git)
 ```
 
 ## Getting Started
