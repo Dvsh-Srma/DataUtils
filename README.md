@@ -9,9 +9,9 @@ DataUtils/
 ├── .gitignore                  # Specifies files and directories to be ignored by Git
 ├── README.md                   # This file provides an overview and instructions
 ├── requirements.txt            # Python dependencies required for the project
-├── makdown_to_html.py          # Script to convert Markdown to styled HTML
-├── markdown_to_docx.py         # Script to convert Markdown to DOCX with formatting
-├── markdownresp.txt            # Example markdown input file
+├── md2html.py                  # Script to convert Markdown to styled HTML
+├── md2docx.py                  # Script to convert Markdown to DOCX with formatting
+├── markdownresp.txt            # Example markdown input file (optional)
 └── output.html / output.docx   # Generated after script execution (ignored by Git)
 ```
 
@@ -27,7 +27,7 @@ DataUtils/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/DataUtils.git
+   git clone https://github.com/Dvsh-Srma/DataUtils.git
    cd DataUtils
    ```
 
@@ -51,7 +51,7 @@ DataUtils/
 Run the conversion script with:
 
 ```bash
-python makdown_to_html.py --input_markdown markdownresp.txt --html_output output.html
+python md2html.py --input_markdown markdownresp.txt --html_output output.html
 ```
 
 ### Convert Markdown to DOCX
@@ -59,7 +59,7 @@ python makdown_to_html.py --input_markdown markdownresp.txt --html_output output
 Run the conversion script with:
 
 ```bash
-python markdown_to_docx.py -i markdownresp.txt -o output.docx
+python md2docx.py -i markdownresp.txt -o output.docx
 ```
 
 ## Dependencies
