@@ -1,4 +1,13 @@
-# Ignore all files in the DataUtils directory
-DataUtils/output.html
-DataUtils/output.docx
+# Ignore generated output files
+output.html
+output.docx
 
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
