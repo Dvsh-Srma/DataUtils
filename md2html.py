@@ -1,5 +1,8 @@
-
 import argparse
+import sys
+import markdown
+from bs4 import BeautifulSoup
+import pymdownx.emoji
 import sys
 import textwrap
 import markdown
@@ -13,8 +16,8 @@ def convert_markdown_to_html(markdown_text, prettify=True):
             extensions=['pymdownx.superfences', 'tables', 'codehilite', 'pymdownx.emoji'],
             extension_configs={
                 'pymdownx.emoji': {
-                    # This simple lambda wraps emojis in a span with class "emoji"
-                    'emoji_generator': lambda emoji, options, md: f'<span class="emoji">{emoji}</span>',
+                    'emoji_index': pymdownx.emoji.gemoji,
+                    'emoji_generator': pymdownx.emoji.to_alt,
                 },
                 'codehilite': {
                     'guess_lang': False,

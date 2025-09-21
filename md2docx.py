@@ -212,11 +212,11 @@ def main():
         description="Convert Markdown text or a Markdown file to a formatted DOCX file."
     )
     parser.add_argument(
-        "-i", "--input", type=str,
+        "-i", "--input", type=str, default="markdownresp.txt",
         help="Input Markdown file path. Defaults to 'markdownresp.txt' if not provided."
     )
     parser.add_argument(
-        "-o", "--output", type=str,
+        "-o", "--output", type=str, default="output.docx",
         help="Output DOCX file path. Defaults to 'output.docx' if not provided."
     )
     args = parser.parse_args()
