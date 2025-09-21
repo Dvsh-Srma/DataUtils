@@ -1,0 +1,156 @@
+# Markdown Test Document
+
+This is a comprehensive test document that showcases various Markdown features.
+
+## Text Formatting
+
+Basic text formatting:
+- **Bold text** and __also bold__
+- *Italic text* and _also italic_
+- ***Bold and italic*** and ___also bold and italic___
+- ~~Strikethrough text~~
+- `Inline code`
+
+## Headers
+
+# H1 Header
+## H2 Header
+### H3 Header
+#### H4 Header
+##### H5 Header
+###### H6 Header
+
+## Lists
+
+### Unordered Lists
+* Item 1
+* Item 2
+  * Nested item 2.1
+  * Nested item 2.2
+    * Deeply nested item
+* Item 3
+
+### Ordered Lists
+1. First item
+2. Second item
+   1. Nested item 2.1
+   2. Nested item 2.2
+3. Third item
+
+### Task Lists
+- [x] Completed task
+- [ ] Incomplete task
+- [x] Another completed task
+
+## Links and Images
+
+[Link to Google](https://www.google.com)
+![Sample Image](https://via.placeholder.com/150)
+
+## Blockquotes
+
+> This is a blockquote
+> 
+> It can span multiple lines
+>> And can be nested
+>>> Even deeper nesting
+
+## Code Blocks
+
+Inline code: `const greeting = "Hello, World!";`
+
+```python
+def hello_world():
+    print("Hello, World!")
+    return True
+
+# With syntax highlighting
+class Example:
+    def __init__(self):
+        self.value = 42
+```
+
+```javascript
+// JavaScript example
+function calculateSum(a, b) {
+    return a + b;
+}
+
+const result = calculateSum(5, 3);
+console.log(result);
+```
+
+## Tables
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data     | Data     |
+| Row 2    | **Bold** | *Italic* |
+| Row 3    | `Code`   | [Link](https://example.com) |
+
+## Horizontal Rules
+
+---
+***
+___
+
+## Emojis
+
+:smile: :heart: :thumbsup: :rocket: :star:
+
+## Mixed Content Example
+
+Here's a complex example combining multiple elements:
+
+> ### Important Note :warning:
+> 
+> This section demonstrates how to combine various elements:
+> 
+> 1. **Bold text** within a list
+> 2. `code blocks` within lists
+> 3. Tables within blockquotes:
+>
+> | Feature | Support |
+> |---------|---------|
+> | Tables  | ✓ |
+> | Lists   | ✓ |
+> 
+> ```python
+> def nested_example():
+>     return "This is nested in a blockquote"
+> ```
+
+## Special Characters
+
+Testing special characters: & < > " '
+HTML entities: &amp; &lt; &gt; &quot; &apos;
+
+## Math Expressions (if supported)
+
+Inline math: $E = mc^2$
+
+Block math:
+$$
+\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+## Footnotes
+
+Here's a sentence with a footnote[^1].
+
+[^1]: This is the footnote content.
+
+## Definition Lists
+
+Term 1
+: Definition 1
+
+Term 2
+: Definition 2a
+: Definition 2b
+
+## Escaping Characters
+
+\*Not italic\*
+\`Not code\`
+\[Not a link\]

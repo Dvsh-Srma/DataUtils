@@ -1,4 +1,0 @@
-markdown>=3.3.0
-beautifulsoup4>=4.9.0
-html2docx
-python-docx>=0.8.11

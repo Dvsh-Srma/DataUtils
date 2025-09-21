@@ -1,0 +1,22 @@
+[project]
+name = "datautils"
+version = "0.1.0"
+description = "Utilities for converting between Markdown, HTML, and DOCX formats"
+requires-python = ">=3.8"
+dependencies = [
+    "markdown>=3.3.0",
+    "beautifulsoup4>=4.9.0",
+    "html2docx",
+    "python-docx>=0.8.11",
+    "pymdown-extensions>=10.3", # Added this as it's required by the code
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
